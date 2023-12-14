@@ -5,6 +5,7 @@
 html,
 body {
     /* overflow-x: hidden; */
+    background-color: #B3A9AB;
 }
 
 
@@ -12,3 +13,8 @@ body {
     margin: 0 10px;
 }
 
+
+.container {
+    width: 200px; /* Adjust the width as needed */
+  }
+  
