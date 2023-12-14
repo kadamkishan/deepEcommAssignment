@@ -109,7 +109,7 @@ function App() {
       <div className="mt-20 overflow-visible">
         <Slider {...settings}>
           <div className="m-auto">
-            <img className="w-full" src={img1} alt="Image 1" />
+            <img className="w-[480px] " src={img1} alt="Image 1" />
           </div>
           <div>
             <img className="w-full"  src={img2} alt="Image 2" />
