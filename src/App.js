@@ -18,6 +18,9 @@ function App() {
   };
 
 
+
+
+
   return (
 
     <div>
@@ -108,14 +111,107 @@ function App() {
       
       <div className="mt-20 overflow-visible">
         <Slider {...settings}>
-          <div className="m-auto">
-            <img className="w-[480px] " src={img1} alt="Image 1" />
+          <div className="w-full  bg-white rounded-xl">
+
+            <div className="">
+              <div className="bg-[#dadadc] rounded-lg">
+                  <a href="" className="flex items-center py-3 px-4 space-x-2 opacity-40 hover:bg-[#dadadc] rounded-lg text-sm hover:text-black hover:font-bold hover:opacity-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="black" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                  </svg>
+                  <span className="text-sm text-black font-bold">Coffee? <span className="opacity-50">. Marisa Lu</span></span>
+                </a> 
+              </div>
+
+              <div className="py-3 px-4">
+                <div className="text-2xl">
+                  Marisa LU
+                </div>
+
+                <div className="text-2xl font-bold mt-2">
+                  Coffee?
+                </div>
+
+                <div className="mt-5">
+                  Hey Jason,
+                </div>
+
+                <div className="mt-4">
+                  Was Wondering if you'd be intreseted in meeting my team at philz coffee at 11 AM Today. No pressure if you can't make it , although you guy would really get along !
+                </div>
+
+                <div className="mt-4">
+                  Marisa
+                </div>
+
+                <div className="flex gap-x-2 mt-7 font-semibold opacity-40">
+                  <div className="bg-[#e7dadd] rounded-lg p-2">Reply</div>
+                  <div className="bg-[#e7dadd] rounded-lg p-2">Forward</div>
+                  <div className="bg-[#e7dadd] rounded-lg p-2">Delete</div>
+                </div>
+              </div>
+            </div>
+            {/* <img className="" src={img1} alt="Image 1" /> */}
+          </div>
+
+          <div className="w-full  bg-white rounded-xl">
+
+            <div >
+              <div className="bg-[#dadadc] rounded-lg">
+                  <a href="" className="flex items-center py-3 px-4 space-x-2  hover:bg-[#dadadc] rounded-lg text-sm text-black hover:font-bold hover:opacity-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+
+                  <span className="text-sm text-black font-bold">Philz Coffee? <span className="opacity-50">. Location</span></span>
+                </a> 
+              </div>
+
+              <div className="h-[140px] m-auto " >
+
+                <div className="p-2 ">
+                  <img className="h-[200px] w-full" src="https://i0.wp.com/www.cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1" alt="images232"/>
+
+                </div>
+              </div>
+              <div className="py-3 px-4">
+
+
+                <div className="text-2xl font-bold mt-16">
+                  Philz Coffee
+                </div>
+
+                <div className="mt-5 text-lg font-semibold opacity-60">
+                  Custom-blended java in casual setting.
+                </div>
+
+
+                <div className="mt-4">
+                  <div className="font-semibold opacity-40">
+                    20865 Stevens Creek Blvd
+                    <br></br>
+                    Cupertino,CA 95014
+                  </div>
+                  
+                </div>
+
+                <div className="flex gap-x-2 mt-7 font-semibold opacity-60">
+                  <div className="bg-[#e7dadd] rounded-lg p-2">
+                    <span></span>
+                    Get direction</div>
+                  <div className="bg-[#e7dadd] rounded-lg p-2">See Details</div>
+                  <div className="bg-[#e7dadd] rounded-lg p-2">Find more cafes nearby</div>
+                </div>
+              </div>
+            </div>
+            {/* <img className="" src={img1} alt="Image 1" /> */}
           </div>
           <div>
             <img className="w-full"  src={img2} alt="Image 2" />
           </div>
           <div>
-            <img className="w-full" src={img1} alt="Image 3" />
+            <img className="w-[480px]" src={img1} alt="Image 3" />
           </div>
           <div>
             <img className="w-full" src={img2} alt="Image " />
@@ -128,5 +224,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
