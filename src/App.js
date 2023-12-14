@@ -19,6 +19,17 @@ function App() {
 
 
   return (
+
+    <div>
+
+      <h3 className="p-10 ml-8 absolute text-[100px] opacity-10" >
+        <span className="flex">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"             stroke-width="1.5" stroke="currentColor" class="w-6 h-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+        </svg>
+
+        </span>
+        Review Inbox</h3>
     
   
     <div className="relative flex min-h-screen ">
@@ -40,28 +51,28 @@ function App() {
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="black" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
             </svg>
-            <span className="text-sm text-black font-bold">Coffee? <span className="opacity-50">.Marisa Lu</span></span>
+            <span className="text-sm text-black font-bold">Coffee? <span className="opacity-50">. Marisa Lu</span></span>
           </a> 
 
           <a href="" className="flex items-center py-3 px-4 space-x-2 opacity-40 hover:bg-[#dadadc] rounded-lg text-sm hover:text-black hover:font-bold hover:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="black" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
             </svg>
-            <span className="text-sm text-black font-bold">Feedback<span className="opacity-50">.Lindsey</span></span>
+            <span className="text-sm text-black font-bold">Feedback<span className="opacity-50">. Lindsey</span></span>
           </a> 
 
           <a href="" className="flex items-center py-3 px-4 space-x-2 opacity-40 hover:bg-[#dadadc] rounded-lg text-sm hover:text-black hover:font-bold hover:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="black" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
             </svg>
-            <span className="text-sm text-black font-bold">Post-grad plans<span className="opacity-50">Evenlyn</span></span>
+            <span className="text-sm text-black font-bold">Post-grad plans<span className="opacity-50">. Evenlyn</span></span>
           </a> 
 
           <a href="" className="flex items-center py-3 px-4 space-x-2 opacity-30 hover:bg-[#dadadc] rounded-lg text-sm hover:text-black hover:font-bold hover:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="black" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
             </svg>
-            <span className="text-sm text-black font-bold">Lunch Plan <span className="opacity-50">.Dennis</span></span>
+            <span className="text-sm text-black font-bold">Lunch Plan <span className="opacity-50">. Dennis</span></span>
           </a> 
 
           <a href="" className="flex items-center py-3 px-4 space-x-2 opacity-25 hover:bg-[#dadadc] rounded-lg text-sm hover:text-black hover:font-bold hover:opacity-100">
@@ -112,6 +123,8 @@ function App() {
         </Slider>
       </div>
     </div>
+    </div>
+
     </div>
   );
 }
