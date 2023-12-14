@@ -39,6 +39,8 @@ function App() {
       <div className=" text-cyan-100 w-64  m-auto">
       {/* className="shadow" */}
 
+      {/* left bar */}
+
         <div className="p-8  items-center ">
  
 
@@ -106,6 +108,8 @@ function App() {
         
       </div>
      
+
+     {/* content */}
     
     <div className="w-3/4 m-auto">
       
@@ -115,7 +119,7 @@ function App() {
 
             <div className="">
               <div className="bg-[#dadadc] rounded-lg">
-                  <a href="" className="flex items-center py-3 px-4 space-x-2 opacity-40 hover:bg-[#dadadc] rounded-lg text-sm hover:text-black hover:font-bold hover:opacity-100">
+                <a href="" className="flex items-center py-3 px-4 space-x-2  hover:bg-[#dadadc] rounded-lg text-sm text-black hover:font-bold hover:opacity-100">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="black" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
@@ -213,9 +217,7 @@ function App() {
           <div>
             <img className="w-[480px]" src={img1} alt="Image 3" />
           </div>
-          <div>
-            <img className="w-full" src={img2} alt="Image " />
-          </div>
+          
         </Slider>
       </div>
     </div>
